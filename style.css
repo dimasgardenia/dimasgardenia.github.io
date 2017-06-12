@@ -1,0 +1,97 @@
+* {
+	Margin: 0px;
+	padding: 0px;
+}
+
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(paint.png) no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content{
+	max-width: 500px;
+	margin: 25% 35%;
+	text-align: center;
+}
+
+.content, h1{
+	color: white;
+	text-shadow: 0px 0px 300px white;
+	font-size: 30px;
+}
+
+.btn{
+	border-radius: 9px;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 5px 20px;
+	border: solid white 3px;
+	color: white;
+}
+
+.btn:hover{
+	color: white;
+	border: solid white 3px;
+}
+
+h2{
+	margin: 30px 50px;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+p {
+	font-size: 20px;
+	line-height: 150%;
+	text-align: justify;
+	margin: 30px 50px;
+}
+
+li{
+	font-size: 20px;
+	line-height: 20%;
+	text-align: justify;
+	margin: 50px 50px;
+}
+
+footer{
+	border: solid #000 3px;
+	display:block;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	background: #000;
+}
+
+@media screen and (max-width: 768px) {
+	.content h1{
+		font-size: 30px;
+	}
+	.btn{
+	font-size: 5px;
+	padding: 7px 15px;
+	}
+	p{
+		font-size: 20px;
+		line-height: 100%;
+		text-align: left;
+	}
+	li{
+		font-size: 10px;
+		text-align: left;
+		line-height: 10px;
+	}
+}
+
